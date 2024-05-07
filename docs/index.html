@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Separador de Times</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header>
+    <h1>Separador de Times</h1>
+  </header>
+
+  <section id="players-section">
+    <h2>Jogadores</h2>
+    <div id="jogadores">
+      <!-- Jogadores serão adicionados aqui -->
+    </div>
+    <button id="adicionarJogador">Adicionar Jogador</button>
+  </section>
+
+  <section id="goalkeeper-section">
+    <h2>Goleiros</h2>
+    <div class="goleiros-container">
+      <input type="text" id="goleiro1" placeholder="Goleiro 1">
+      <input type="text" id="goleiro2" placeholder="Goleiro 2">
+    </div>
+  </section>
+
+  <section id="result-section">
+    <button id="separarTimes">Separar Times</button>
+    <h2>Resultado</h2>
+    <div id="resultado">
+      <div id="time-branco" class="time">
+        <h3>Time Branco</h3>
+      </div>
+      <div id="time-preto" class="time">
+        <h3>Time Preto</h3>
+      </div>
+    </div>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,83 @@
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f2f2f2;
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+header, section {
+  padding: 20px;
+}
+
+h1, h2, h3 {
+  color: #c00;
+  text-align: center;
+}
+
+#players-section, #goalkeeper-section, #result-section {
+  margin-bottom: 20px;
+}
+
+#goleiro1, #goleiro2 {
+  display: block;
+  width: calc(50% - 5px);
+  margin-bottom: 10px;
+}
+
+button {
+  background-color: #c00;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 5px;
+  display: block;
+  margin: 0 auto;
+}
+
+button:hover {
+  background-color: #a00;
+}
+
+#resultado {
+  display: block;
+  justify-content: space-around;
+}
+
+.time {
+  margin: 0 0 20px 0;
+}
+
+.time h3 {
+  text-align: left;
+}
+
+.player-card {
+  background-color: #fff;
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin-bottom: 15px;
+  border-radius: 5px;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.velocidade {
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  border: 2px solid #c00;
+  margin-right: 8px;
+  cursor: pointer;
+  border-radius: 50%;
+}
+
+.selecionado {
+  background-color: #c00;
+}
+
+.goleiros-container {
+  display: flex;
+  justify-content: space-between;
+}
